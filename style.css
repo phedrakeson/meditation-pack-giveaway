@@ -10,14 +10,14 @@ html {
 
 main {
   display: flex;
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 
 h1 {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
-  font-size: 7.2rem;
+  font-size: 6rem;
   color: #2e3131;
 }
 
@@ -32,18 +32,18 @@ span {
 .introduction {
   background-color: #be90d4;
   width: 70%;
-  padding: 10px 0 20px 120px;
+  padding: 30px 0 20px 60px;
 }
 
 .introduction p {
-  font-size: 3.6rem;
+  font-size: 3rem;
   max-width: 540px;
   color: #2e3131;
   margin-bottom: 20px;
 }
 
 .introduction span {
-  font-size: 3.6rem;
+  font-size: 3rem;
   color: #2e3131;
   font-weight: 600;
 }
@@ -56,8 +56,8 @@ span {
 .invite {
   background-color: #674172;
   width: 30%;
-  padding: 20px 30px 20px 30px;
   text-align: center;
+  padding: 120px 60px 120px 60px;
 }
 
 .invite h2,
@@ -66,14 +66,14 @@ p {
 }
 
 .invite h2 {
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   margin-bottom: 40px;
   text-transform: uppercase;
 }
 
 .invite p {
   margin-bottom: 80px;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .invite button {
@@ -85,4 +85,40 @@ p {
   border: none;
   font-size: 2.4rem;
   cursor: pointer;
+}
+
+@media (max-width: 980px) {
+  html {
+    font-size: 50%;
+  }
+
+  .invite {
+    padding: 60px 20px 60px 20px;
+  }
+
+  .introduction {
+    padding: 30px 0 30px 20px;
+  }
+
+  .invite button {
+    width: 100px;
+    height: 60px;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 500px) {
+  main {
+    display: block;
+  }
+
+  .introduction,
+  .invite {
+    width: 100%;
+  }
+
+  .invite button {
+    width: 200px;
+    font-size: 2.4rem;
+  }
 }
