@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  font-size: 7.2rem;
+  color: #2e3131;
+}
+
+h2,
+p,
+button,
+span {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+}
+
+.introduction {
+  background-color: #be90d4;
+  width: 70%;
+  padding: 10px 0 20px 120px;
+}
+
+.introduction p {
+  font-size: 3.6rem;
+  max-width: 540px;
+  color: #2e3131;
+  margin-bottom: 20px;
+}
+
+.introduction span {
+  font-size: 3.6rem;
+  color: #2e3131;
+  font-weight: 600;
+}
+
+.introduction .introduction img {
+  display: block;
+  max-width: 100%;
+}
+
+.invite {
+  background-color: #674172;
+  width: 30%;
+  padding: 20px 30px 20px 30px;
+  text-align: center;
+}
+
+.invite h2,
+p {
+  color: #eee;
+}
+
+.invite h2 {
+  font-size: 2.8rem;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.invite p {
+  margin-bottom: 80px;
+  font-size: 2.5rem;
+}
+
+.invite button {
+  color: #2e3131;
+  background-color: #be90d4;
+  width: 200px;
+  height: 60px;
+  border-radius: 25px;
+  border: none;
+  font-size: 2.4rem;
+  cursor: pointer;
+}
